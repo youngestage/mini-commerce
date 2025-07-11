@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useCartStore } from '@/store/cart-store';
 import { ShoppingCartIcon, SunIcon, MoonIcon } from '@heroicons/react/24/outline';
 import { useDarkMode } from '@/lib/use-dark-mode';
@@ -20,11 +21,16 @@ export function Header() {
     <header className="bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700 transition-colors duration-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Text Logo Only */}
+          {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="font-bold text-2xl text-gray-900 dark:text-white transition-colors duration-200">
-              Mini-Commerce
-            </span>
+            <Image
+              src="/stack loogo.png"
+              alt="Mini-Commerce Logo"
+              width={120}
+              height={40}
+              className="h-8 w-auto sm:h-10"
+              priority
+            />
           </Link>
 
           {/* Navigation */}
