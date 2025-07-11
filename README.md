@@ -4,7 +4,7 @@ A modern e-commerce prototype built with Next.js 15, demonstrating clean archite
 
 ## 🚀 Live Demo
 
-Visit the live application: [https://mini-commerce-[your-app-name].onrender.com](https://mini-commerce-[your-app-name].onrender.com)
+Visit the live application: [https://mini-commerce-xbsv.onrender.com](https://mini-commerce-xbsv.onrender.com)
 
 ## 📋 Project Overview
 
@@ -284,6 +284,8 @@ npm run test:coverage # Generate coverage report
 #### 3. Domain Configuration
 
 Your app will be available at: `https://mini-commerce-[random-string].onrender.com`
+
+> **Live Example**: See the deployed application at [https://mini-commerce-xbsv.onrender.com](https://mini-commerce-xbsv.onrender.com)
 
 For a custom domain:
 1. Go to Settings → Custom Domains
