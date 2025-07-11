@@ -41,4 +41,4 @@ export interface Order {
 export interface ApiError {
   message: string;
   status?: number;
-} 
+}

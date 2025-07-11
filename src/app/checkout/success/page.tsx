@@ -13,11 +13,11 @@ function CheckoutSuccessContent() {
     <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center">
         <CheckCircleIcon className="h-16 w-16 text-green-500 mx-auto mb-6" />
-        
+
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
           Order Confirmed!
         </h1>
-        
+
         <p className="text-lg text-gray-600 mb-8">
           Thank you for your purchase. Your order has been successfully placed.
         </p>
@@ -33,7 +33,8 @@ function CheckoutSuccessContent() {
             <strong>Status:</strong> Processing
           </p>
           <p className="text-green-800 mt-1 text-sm">
-            You will receive an email confirmation shortly with tracking information.
+            You will receive an email confirmation shortly with tracking
+            information.
           </p>
         </div>
 
@@ -44,7 +45,7 @@ function CheckoutSuccessContent() {
           >
             Continue Shopping
           </Link>
-          
+
           <button
             onClick={() => window.print()}
             className="block w-full sm:w-auto bg-gray-100 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors font-medium text-center"
@@ -62,7 +63,9 @@ function CheckoutSuccessContent() {
               <div className="bg-blue-100 rounded-full p-3 w-12 h-12 mx-auto mb-3 flex items-center justify-center">
                 <span className="font-bold text-blue-600">1</span>
               </div>
-              <h4 className="font-semibold text-gray-900 mb-1">Order Processing</h4>
+              <h4 className="font-semibold text-gray-900 mb-1">
+                Order Processing
+              </h4>
               <p>We&apos;ll prepare your items for shipment</p>
             </div>
             <div className="text-center">
@@ -88,18 +91,20 @@ function CheckoutSuccessContent() {
 
 export default function CheckoutSuccessPage() {
   return (
-    <Suspense fallback={
-      <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="text-center">
-          <div className="animate-pulse">
-            <div className="h-16 w-16 bg-gray-200 rounded-full mx-auto mb-6"></div>
-            <div className="h-8 bg-gray-200 rounded mb-4 w-48 mx-auto"></div>
-            <div className="h-6 bg-gray-200 rounded mb-8 w-64 mx-auto"></div>
+    <Suspense
+      fallback={
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="text-center">
+            <div className="animate-pulse">
+              <div className="h-16 w-16 bg-gray-200 rounded-full mx-auto mb-6"></div>
+              <div className="h-8 bg-gray-200 rounded mb-4 w-48 mx-auto"></div>
+              <div className="h-6 bg-gray-200 rounded mb-8 w-64 mx-auto"></div>
+            </div>
           </div>
         </div>
-      </div>
-    }>
+      }
+    >
       <CheckoutSuccessContent />
     </Suspense>
   );
-} 
+}

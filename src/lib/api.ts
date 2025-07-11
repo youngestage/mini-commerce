@@ -17,10 +17,10 @@ export async function fetchProducts(): Promise<Product[]> {
     }
 
     const products: Product[] = await response.json();
-    
+
     // Seed to localStorage for future use
     localStorage.setItem(PRODUCTS_STORAGE_KEY, JSON.stringify(products));
-    
+
     return products;
   } catch (error) {
     console.error('Error fetching products:', error);
@@ -28,7 +28,9 @@ export async function fetchProducts(): Promise<Product[]> {
   }
 }
 
-export async function fetchProductBySlug(slug: string): Promise<Product | null> {
+export async function fetchProductBySlug(
+  slug: string
+): Promise<Product | null> {
   try {
     const products = await fetchProducts();
     return products.find((product) => product.slug === slug) || null;
@@ -40,7 +42,7 @@ export async function fetchProductBySlug(slug: string): Promise<Product | null> 
 
 export function searchProducts(products: Product[], query: string): Product[] {
   if (!query.trim()) return products;
-  
+
   const lowercaseQuery = query.toLowerCase();
   return products.filter(
     (product) =>
@@ -61,4 +63,4 @@ export function filterProductsByCategory(
 export function getUniqueCategories(products: Product[]): string[] {
   const categories = products.map((product) => product.category);
   return ['All', ...Array.from(new Set(categories))];
-} 
+}

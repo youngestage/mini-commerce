@@ -8,7 +8,12 @@
     "description": "Premium wireless earbuds with noise cancellation and premium sound quality. Perfect for music lovers and professionals.",
     "category": "Electronics",
     "inStock": true,
-    "features": ["Noise Cancellation", "20hr Battery", "Water Resistant", "Touch Controls"]
+    "features": [
+      "Noise Cancellation",
+      "20hr Battery",
+      "Water Resistant",
+      "Touch Controls"
+    ]
   },
   {
     "id": "2",
@@ -30,7 +35,12 @@
     "description": "Timeless leather jacket crafted from premium materials. A wardrobe essential that never goes out of style.",
     "category": "Fashion",
     "inStock": true,
-    "features": ["Genuine Leather", "Multiple Pockets", "Lined Interior", "Classic Fit"]
+    "features": [
+      "Genuine Leather",
+      "Multiple Pockets",
+      "Lined Interior",
+      "Classic Fit"
+    ]
   },
   {
     "id": "4",
@@ -41,7 +51,12 @@
     "description": "High-performance running shoes designed for comfort and speed. Perfect for your daily runs and workouts.",
     "category": "Sports",
     "inStock": true,
-    "features": ["Breathable Mesh", "Shock Absorption", "Lightweight", "Durable Sole"]
+    "features": [
+      "Breathable Mesh",
+      "Shock Absorption",
+      "Lightweight",
+      "Durable Sole"
+    ]
   },
   {
     "id": "5",
@@ -52,7 +67,12 @@
     "description": "Programmable coffee maker that brews the perfect cup every time. Start your mornings right with rich, flavorful coffee.",
     "category": "Home",
     "inStock": true,
-    "features": ["12-Cup Capacity", "Auto-Brew Timer", "Keep Warm", "Easy Clean"]
+    "features": [
+      "12-Cup Capacity",
+      "Auto-Brew Timer",
+      "Keep Warm",
+      "Easy Clean"
+    ]
   },
   {
     "id": "6",
@@ -63,7 +83,12 @@
     "description": "Non-slip yoga mat for all your fitness needs. Made from eco-friendly materials for sustainable practice.",
     "category": "Sports",
     "inStock": true,
-    "features": ["Non-Slip Surface", "Eco-Friendly", "6mm Thick", "Carrying Strap"]
+    "features": [
+      "Non-Slip Surface",
+      "Eco-Friendly",
+      "6mm Thick",
+      "Carrying Strap"
+    ]
   },
   {
     "id": "7",
@@ -85,7 +110,12 @@
     "description": "Durable travel backpack with multiple compartments and laptop sleeve. Perfect for business trips and adventures.",
     "category": "Travel",
     "inStock": true,
-    "features": ["Laptop Sleeve", "Water Resistant", "40L Capacity", "Ergonomic Design"]
+    "features": [
+      "Laptop Sleeve",
+      "Water Resistant",
+      "40L Capacity",
+      "Ergonomic Design"
+    ]
   },
   {
     "id": "9",
@@ -107,6 +137,11 @@
     "description": "High-precision gaming mouse with customizable RGB lighting and programmable buttons for competitive gaming.",
     "category": "Electronics",
     "inStock": true,
-    "features": ["12000 DPI", "RGB Lighting", "Programmable Buttons", "Ergonomic Grip"]
+    "features": [
+      "12000 DPI",
+      "RGB Lighting",
+      "Programmable Buttons",
+      "Ergonomic Grip"
+    ]
   }
-] 
+]

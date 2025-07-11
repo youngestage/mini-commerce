@@ -69,7 +69,10 @@ export const useCartStore = create<CartState>()(
 
       getSubtotal: () => {
         const { items } = get();
-        return items.reduce((total, item) => total + item.price * item.quantity, 0);
+        return items.reduce(
+          (total, item) => total + item.price * item.quantity,
+          0
+        );
       },
 
       getTotal: () => {
@@ -82,4 +85,4 @@ export const useCartStore = create<CartState>()(
       partialize: (state) => ({ items: state.items }),
     }
   )
-); 
+);
