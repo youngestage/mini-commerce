@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "slug": "wireless-earbuds-pro",
+    "name": "Wireless Earbuds Pro",
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+    "description": "Premium wireless earbuds with noise cancellation and premium sound quality. Perfect for music lovers and professionals.",
+    "category": "Electronics",
+    "inStock": true,
+    "features": ["Noise Cancellation", "20hr Battery", "Water Resistant", "Touch Controls"]
+  },
+  {
+    "id": "2",
+    "slug": "smartphone-x1",
+    "name": "Smartphone X1",
+    "price": 699.99,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=400&fit=crop",
+    "description": "Latest smartphone with advanced camera system and all-day battery life. Stay connected with blazing fast performance.",
+    "category": "Electronics",
+    "inStock": true,
+    "features": ["48MP Camera", "5G Ready", "Face ID", "Wireless Charging"]
+  },
+  {
+    "id": "3",
+    "slug": "classic-leather-jacket",
+    "name": "Classic Leather Jacket",
+    "price": 299.99,
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop",
+    "description": "Timeless leather jacket crafted from premium materials. A wardrobe essential that never goes out of style.",
+    "category": "Fashion",
+    "inStock": true,
+    "features": ["Genuine Leather", "Multiple Pockets", "Lined Interior", "Classic Fit"]
+  },
+  {
+    "id": "4",
+    "slug": "running-shoes-ultra",
+    "name": "Running Shoes Ultra",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+    "description": "High-performance running shoes designed for comfort and speed. Perfect for your daily runs and workouts.",
+    "category": "Sports",
+    "inStock": true,
+    "features": ["Breathable Mesh", "Shock Absorption", "Lightweight", "Durable Sole"]
+  },
+  {
+    "id": "5",
+    "slug": "coffee-maker-deluxe",
+    "name": "Coffee Maker Deluxe",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop",
+    "description": "Programmable coffee maker that brews the perfect cup every time. Start your mornings right with rich, flavorful coffee.",
+    "category": "Home",
+    "inStock": true,
+    "features": ["12-Cup Capacity", "Auto-Brew Timer", "Keep Warm", "Easy Clean"]
+  },
+  {
+    "id": "6",
+    "slug": "yoga-mat-premium",
+    "name": "Premium Yoga Mat",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=400&fit=crop",
+    "description": "Non-slip yoga mat for all your fitness needs. Made from eco-friendly materials for sustainable practice.",
+    "category": "Sports",
+    "inStock": true,
+    "features": ["Non-Slip Surface", "Eco-Friendly", "6mm Thick", "Carrying Strap"]
+  },
+  {
+    "id": "7",
+    "slug": "desk-lamp-modern",
+    "name": "Modern Desk Lamp",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=400&fit=crop",
+    "description": "Adjustable LED desk lamp with touch controls and USB charging port. Perfect for your home office setup.",
+    "category": "Home",
+    "inStock": true,
+    "features": ["LED Light", "USB Charging", "Touch Control", "Adjustable Arm"]
+  },
+  {
+    "id": "8",
+    "slug": "backpack-travel",
+    "name": "Travel Backpack",
+    "price": 159.99,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop",
+    "description": "Durable travel backpack with multiple compartments and laptop sleeve. Perfect for business trips and adventures.",
+    "category": "Travel",
+    "inStock": true,
+    "features": ["Laptop Sleeve", "Water Resistant", "40L Capacity", "Ergonomic Design"]
+  },
+  {
+    "id": "9",
+    "slug": "skincare-set-deluxe",
+    "name": "Deluxe Skincare Set",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=400&fit=crop",
+    "description": "Complete skincare routine with premium ingredients. Transform your skin with this luxury skincare collection.",
+    "category": "Beauty",
+    "inStock": true,
+    "features": ["Cleanser", "Moisturizer", "Serum", "Premium Ingredients"]
+  },
+  {
+    "id": "10",
+    "slug": "gaming-mouse-pro",
+    "name": "Gaming Mouse Pro",
+    "price": 99.99,
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&h=400&fit=crop",
+    "description": "High-precision gaming mouse with customizable RGB lighting and programmable buttons for competitive gaming.",
+    "category": "Electronics",
+    "inStock": true,
+    "features": ["12000 DPI", "RGB Lighting", "Programmable Buttons", "Ergonomic Grip"]
+  }
+] 
